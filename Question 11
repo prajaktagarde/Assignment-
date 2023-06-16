@@ -1,0 +1,5 @@
+Q11)  Suppose we want to estimate the average weight of an adult male in    Mexico.
+ We draw a random sample of 2,000 men from a population of 3,000,000 men and weigh them.
+ We find that the average person in our sample weighs 200 pounds, and the standard deviation of the sample is 30 pounds. Calculate 94%,98%,96% confidence interval?
+
+Anwer:-  conf_94 =stats.t.interval(alpha = 0.94, df=1999, loc=200, scale=30/np.sqrt(2000)) print(np.round(conf_94,0)) print(conf_94) For 94% confidence interval Range is [ 198.73 – 201.26] For 98% confidence interval range is [198.43 – 201.56] For 96% confidence interval range is [198.62 – 201.37]
